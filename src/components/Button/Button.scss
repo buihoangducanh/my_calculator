@@ -1,0 +1,40 @@
+@import "./../../sass/variables.scss";
+
+.button {
+  padding: 2rem;
+  cursor: pointer;
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: $screen-current-color;
+
+  &__content {
+    text-align: center;
+    margin-top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.ac-button {
+  background-color: $AC-button-color;
+  &:hover {
+    background-color: darken($color: $AC-button-color, $amount: 5%);
+  }
+}
+.number-button {
+  background-color: $number-button-color;
+  &:hover {
+    background-color: darken($color: $number-button-color, $amount: 5%);
+  }
+}
+.operation-button {
+  background-color: $operation-button-color;
+  &:hover {
+    background-color: darken($color: $operation-button-color, $amount: 5%);
+  }
+}
+.equal-button {
+  background-color: $equal-button-color;
+  &:hover {
+    background-color: darken($color: $equal-button-color, $amount: 5%);
+  }
+}

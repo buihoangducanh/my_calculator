@@ -1,0 +1,13 @@
+.author {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: -20rem;
+  span {
+    display: block;
+  }
+  &__name {
+    color: red;
+    font-size: 2rem;
+  }
+}
