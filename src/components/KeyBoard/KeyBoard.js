@@ -1,6 +1,7 @@
 import React from "react";
 import "./KeyBoard.scss";
 import Button from "../Button/Button";
+
 const KeyBoard = ({ className, style }) => {
   return (
     <div style={{ ...style }} className={`keyboard ${className || ""}`}>
@@ -11,7 +12,7 @@ const KeyBoard = ({ className, style }) => {
         /
       </Button>
       <Button className={`operation-button`} style={{ gridArea: `multiply` }}>
-        X
+        x
       </Button>
       <Button className={`number-button`} style={{ gridArea: `num7` }}>
         7

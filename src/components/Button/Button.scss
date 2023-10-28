@@ -12,6 +12,10 @@
     margin-top: 50%;
     transform: translateY(-50%);
   }
+  &:hover {
+    color: #000;
+    border: 0.1rem solid white;
+  }
 }
 
 .ac-button {
