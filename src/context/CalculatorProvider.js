@@ -47,7 +47,7 @@ const CalculatorContextProvider = ({ children }) => {
       setHitEqual(false);
     } else if (char === ".") {
       if (!hitEqual) {
-        if (lastChar !== char) {
+        if (lastChar !== char && !currentInput.includes(char)) {
           setOperation((prev) => prev.concat(char));
           setCurrentInput((prev) => prev.concat(char));
         }
